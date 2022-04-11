@@ -1,28 +1,23 @@
 
 
-
 body {
     display: flex;
-    font-family: Ubuntu, sans-serif;
+    font-family: sans-serif;
     flex-direction: column;
 }
 footer p {
     margin-top: 5em;
     font-size: small;
 }
-
-
 h1 {
     font-size: 50px;
     margin: .2em;
     align-self: center;
 }
-
 img {
     margin: auto;
     width: 100%;
 }
-
 
 .nav-links {
     padding-left: 0;
@@ -46,7 +41,6 @@ li {
 section p {
     font-size: medium;
 }
-
 
 @media screen and (max-width:768px) {
     #center {
