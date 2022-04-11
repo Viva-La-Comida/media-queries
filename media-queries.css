@@ -1,4 +1,89 @@
 
+<<<<<<< HEAD
+    body {
+        display: flex;
+        font-family: sans-serif;
+        flex-direction: column;
+    }
+    .alert-info-hidden-on-desktop {
+        visibility: hidden;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+    footer.footer{
+        justify-content: space-between;
+        align-content: end;
+    }
+
+    footer p {
+        margin-top: 5em;
+        font-size: small;
+        display: flex;
+        align-content:flex-end;
+    }
+    #social-media-links {
+        align-self: flex-end;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: .2em;
+
+    }
+    .header-div{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    img {
+        margin: auto;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+    }
+
+    .nav-links {
+        justify-content: space-evenly;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    .section-div{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15em;
+    }
+
+    .sub-section {
+        font-style: italic;
+    }
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        padding: 1em 1em;
+        margin: .5em 0;
+        flex-direction: row;
+
+    }
+    .main{
+        margin-right: 4em;
+    }
+
+    section p {
+        font-size: medium;
+    }
+=======
 body {
     display: flex;
     font-family: sans-serif;
@@ -82,6 +167,7 @@ li {
 section p {
     font-size: medium;
 }
+>>>>>>> 8f89facc05e2f547c7a5718ed98804043edba207
 
 @media screen and (max-width:768px) {
     #center {
@@ -135,6 +221,17 @@ section p {
         margin-bottom: 1em;
 
 
+<<<<<<< HEAD
+    }
+    nav {
+
+      justify-content: center;
+    }
+    ul {
+        display: flex;
+        align-content: center;
+    }
+=======
     }
     nav {
         justify-content: center;
@@ -153,12 +250,17 @@ section p {
         align-content: space-around;
         padding: 0px;
     }
+>>>>>>> 8f89facc05e2f547c7a5718ed98804043edba207
     .header-div {
         display: flex;
         flex-direction: column;
     }
     h1 {
+<<<<<<< HEAD
+      align-content: center;
+=======
         align-content: center;
+>>>>>>> 8f89facc05e2f547c7a5718ed98804043edba207
     }
 
 }
