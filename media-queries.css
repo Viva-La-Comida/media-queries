@@ -1,46 +1,87 @@
 
+    body {
+        display: flex;
+        font-family: sans-serif;
+        flex-direction: column;
+    }
+    .alert-info-hidden-on-desktop {
+        visibility: hidden;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+    footer.footer{
+        justify-content: space-between;
+        align-content: end;
+    }
 
-body {
-    display: flex;
-    font-family: sans-serif;
-    flex-direction: column;
-}
-footer p {
-    margin-top: 5em;
-    font-size: small;
-}
-h1 {
-    font-size: 50px;
-    margin: .2em;
-    align-self: center;
-}
-img {
-    margin: auto;
-    width: 100%;
-}
+    footer p {
+        margin-top: 5em;
+        font-size: small;
+        display: flex;
+        align-content:flex-end;
+    }
+    #social-media-links {
+        align-self: flex-end;
+    }
 
-.nav-links {
-    padding-left: 0;
-}
+    h1 {
+        font-size: 50px;
+        margin: .2em;
 
-* {
-    box-sizing: border-box;
-}
-.sub-section {
-    font-style: italic;
-}
-li {
-    list-style-type: none;
-    background-color: darkgrey;
-    text-align: center;
-    width: 100%;
-    padding: 1em 0;
-    margin: .5em 0;
-}
+    }
+    .header-div{
+        display: flex;
+        justify-content: space-between;
 
-section p {
-    font-size: medium;
-}
+    }
+
+    img {
+        margin: auto;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+    }
+
+    .nav-links {
+        justify-content: space-evenly;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    .section-div{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15em;
+    }
+
+    .sub-section {
+        font-style: italic;
+    }
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        padding: 1em 1em;
+        margin: .5em 0;
+        flex-direction: row;
+
+    }
+    .main{
+        margin-right: 4em;
+    }
+
+    section p {
+        font-size: medium;
+    }
 
 @media screen and (max-width:768px) {
     #center {
@@ -67,9 +108,37 @@ section p {
         align-items: start;
     }
     .header-img {
+        padding: 1em;
         width: auto;
     }
-    .header-img {
-        padding: 1em;
+    .alert-info-hidden-on-desktop {
+        visibility: visible;
+        border-style: solid;
+        border-color: gray;
+        background-color: lightblue;
+
     }
+    .nav-links {
+        background-color: lightgrey;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+    nav {
+
+      justify-content: center;
+    }
+    ul {
+        display: flex;
+        align-content: center;
+    }
+    .header-div {
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+      align-content: center;
+    }
+
 }
