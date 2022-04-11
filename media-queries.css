@@ -1,15 +1,15 @@
 
 
-* {
-    box-sizing: border-box;
-}
 
 body {
     display: flex;
     font-family: Ubuntu, sans-serif;
     flex-direction: column;
 }
-
+footer p {
+    margin-top: 5em;
+    font-size: small;
+}
 .alert-info {
     background-color: lightblue;
     border: 1px solid black;
@@ -38,6 +38,12 @@ div a:nth-of-type(1) {
     padding-left: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+.sub-section {
+    font-style: italic;
+}
 li {
     list-style-type: none;
     background-color: darkgrey;
@@ -47,18 +53,10 @@ li {
     margin: .5em 0;
 }
 
-.sub-section {
-    font-style: italic;
-}
-
 section p {
     font-size: medium;
 }
 
-footer p {
-    margin-top: 5em;
-    font-size: small;
-}
 
 @media screen and (max-width:768px) {
     #center {
